@@ -1,3 +1,5 @@
+# Hasła i klucze (najważniejsze dla bezpieczeństwa!)
+.env
 # Logs
 *.log
 *.error.log
@@ -29,3 +31,4 @@ ENV/
 
 # Local bin directory (installed files)
 # Don't ignore the source files, just the installed copies
+
