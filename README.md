@@ -52,7 +52,7 @@ cat > ~/Library/LaunchAgents/com.user.systemmonitor.plist << 'EOF'
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/python3</string>
-        <string>/Users/marcintymkow/.local/bin/menubar_monitor.py</string>
+        <string>/Users/user_name/.local/bin/menubar_monitor.py</string>
     </array>
     
     <key>RunAtLoad</key>
@@ -62,10 +62,10 @@ cat > ~/Library/LaunchAgents/com.user.systemmonitor.plist << 'EOF'
     <true/>
     
     <key>StandardOutPath</key>
-    <string>/Users/marcintymkow/.local/bin/systemmonitor.log</string>
+    <string>/Users/user_name/.local/bin/systemmonitor.log</string>
     
     <key>StandardErrorPath</key>
-    <string>/Users/marcintymkow/.local/bin/systemmonitor.error.log</string>
+    <string>/Users/user_name/.local/bin/systemmonitor.error.log</string>
 </dict>
 </plist>
 EOF
@@ -112,7 +112,7 @@ cat > ~/Library/LaunchAgents/com.user.systemmonitor.plist << 'EOF'
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/python3</string>
-        <string>/Users/marcintymkow/.local/bin/menubar_monitor.py</string>
+        <string>/Users/user_name/.local/bin/menubar_monitor.py</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
