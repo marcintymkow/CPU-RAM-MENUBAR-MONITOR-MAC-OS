@@ -1,0 +1,31 @@
+# Logs
+*.log
+*.error.log
+systemmonitor.log
+systemmonitor.error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local bin directory (installed files)
+# Don't ignore the source files, just the installed copies
