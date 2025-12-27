@@ -1,3 +1,6 @@
+# Hasła i klucze (najważniejsze dla bezpieczeństwa!)
+.env
+
 # Logs
 *.log
 *.error.log
@@ -14,9 +17,6 @@ env/
 venv/
 ENV/
 .venv
-
-# Hasła i klucze (najważniejsze dla bezpieczeństwa!)
-.env
 
 # macOS
 .DS_Store
